@@ -19,8 +19,8 @@ def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 # ✅ Basic Config
-API_ID = int(getenv("API_ID", "39930006"))
-API_HASH = getenv("API_HASH", "0c1afd87f1a69d0e9a8b06b779480f51")
+API_ID = int(getenv("API_ID", "33698024"))
+API_HASH = getenv("API_HASH", "d5379b95f8dad366bd8455d5109f0532")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 COOKIES = getenv("COOKIES", None)
 MONGO_DB_URI = get_env("MONGO_DB_URI", "MONGO_URL", "MONGODB_URI", default="mongodb+srv://saranjaat9694:saranjaat435@cluster0.ofptc9e.mongodb.net/?appName=Cluster0")
@@ -34,10 +34,10 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:00"))
 
 # ✅ Owner & Bot Identity
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003991995988"))
-OWNER_ID = int(getenv("OWNER_ID", "7169279112"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003773179781"))
+OWNER_ID = int(getenv("OWNER_ID", "8602292971"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@III_MAA7NAV_III") 
-BOT_USERNAME = getenv("BOT_USERNAME", "@vcmnvbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 
 # ✅ Command Handler
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
